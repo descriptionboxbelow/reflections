@@ -1,0 +1,87 @@
+###
+How did viewing a diff between two versions of a file help you see
+the bug that was introduced?
+
+Viewing the plus sign at the left side of the resulting DIFF
+command helped me locate the bug introduced in the new file.
+More than anything, the DIFF command helped me reduced the
+scope of research. This made finding the bug much easier.
+I still has to do some searching though but it was relatively
+easy.
+
+On the idea of reflection:
+John Dewey said: "We do not learn from experience,
+We learn from reflecting on experience".
+
+Stories are very important in learning.
+Emotions helps humans learn better and stories happens to
+trigger emotions.
+
+###
+How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+Having an easy access to the entire history of a file can make me
+a more efficient programmer in the long term in that it helps having
+a continuity and a thourough documentation of every step that was taken
+to arrive at the current state of the solution we are developping for
+our problem.
+
+
+VCS = Version Control System
+
+Git was created in 2005 by Linus Torvald.
+Git = british sland for unpleasant person
+
+A save point in git is called a : "COMMIT"
+Each time is Commit is created, Git requires a commit message to go along
+the commit.
+Typically the commit message details the content/reason for the new commit:
+" -Added new cool feature
+  -Improved user documentation,
+  -etc
+"
+
+###
+What are the pros of a manual commit:
+You ensure that each commit corresponds to a logical change
+
+The cons of a manual commit:
+You could forget to commit after a logical and lose the proper version
+controlling of your work in progress
+
+Comparing to having automatically saved VCS (Google docs, Dropbox?):
+An automated VCS might counter the problem of forgetting to save/commit
+yet in doing so, it creates a new problem which is possibly commiting
+documents cutting lines of code in half.
+
+###
+Why do you think GIT allow saving multiple files in one commit?
+Git allow saving multiple files in one commit (aka a repository) because
+in many instance, a project will need many interconnected files.
+Changing one of those files most likely supposes a change on the
+other files, hence the need for saving multiple files at once.
+
+###
+How can you use the commands git log and git diff to view the history
+of files?
+The command git log lets me reads the description & unique ID of each commit.
+Having read the description I am interested in, I can then copy the unique ID
+of this commit. I will call this ID as the first element of the "git diff"
+command, following by the ID of a previous commit. This will let me compare
+the two commits.
+
+### 13sep. 16h24
+How might using version control make you more confident to make changes that
+could break something ?
+Knowing that using the "git checkout" + commit ID command allows me to switch
+back and forth between various commits gives me a security net to experiment
+without fear.
+
+### 13sep. 16h59
+Now that you have your workspace set up, what do you want to try using Git
+for?
+Let's build a project and publish commits.
+I would also like to transfer the quote generator I made once on my machine
+so that I can apply VC to it: I'll be much more comfortable experimenting
+with it. 
