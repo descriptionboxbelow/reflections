@@ -47,3 +47,12 @@ and and experimental using three points of reference:
 — Why do we represent it in the diagram the way we do?
 So as to visualize that no previous commits are deleted after merging
 two branches. They will be merged and displayed in "git log" by timestamp
+
+### 14sep 14h54
+— What are the pros and cons of Git's automatic merging vs. always
+doing merges manually?
+Git's automatic merging cannot tell which piece of similar looking code
+it has to choose.
+It will work well when pieces of code were added or deleted.
+WHen similar lines of code must be merged, it will bring it to our attention:
+a judgment call will have to be made here. 
