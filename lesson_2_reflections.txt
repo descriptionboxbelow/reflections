@@ -34,4 +34,16 @@ Each branch of a project are independent.
 The master branch always remains the master (production) branch.
 Typically, a new branch would be created to test an experimental/new feature.
 Should the feature turn out to be desirable, the branch feature can be
-merged within the master branch. 
+merged within the master branch.
+
+### 14sep 12h24
+— What is the result of merging two branches together?
+Merging two branches together results in a fusion of the master branch
+and and experimental using three points of reference:
+1- The commit where the two branches separated
+2- Last commit of the experimental branch
+3- Last commit of the master branch
+
+— Why do we represent it in the diagram the way we do?
+So as to visualize that no previous commits are deleted after merging
+two branches. They will be merged and displayed in "git log" by timestamp
