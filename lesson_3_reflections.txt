@@ -1,3 +1,10 @@
 14sep-15h45
 When would you want to use a remote repository rather than keeping all your work local ?
   I will use a remote repository for any public or collaborative project I am working on.
+
+14sep-16h02
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+  Because my remote repository might be updated or altered by collaborators.
+  I would want to be aware if new commits have been made on the project since
+  my last commit.
