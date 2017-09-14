@@ -1,16 +1,37 @@
 ### 14sep 9h37
-What happens when you initialize a repository? Why do you need to do it?
-
+— What happens when you initialize a repository? Why do you need to do it?
 Initializing a repo adds to your project's root folder a hidden folder
 containing the necessary tools Git is using to track changes.
 If I dont initialize a repo, Git won't be tracking my changes, I won't
 be able to use Git's functionalities.
 
 ### 14sep 9h55
-How is the staging area different from the working directory and the repo?
+— How is the staging area different from the working directory and the repo?
 What value do you think it offers?
 The working directory is related to what is happening on my local machine.
 The repo is what happens when I commit my changes from local machine to Git.
 The staging area is a limbo space between the two, possibly allowing me to
 prepare my future commits before I go online and actually commit to the Git
 system.
+
+### 14sep 10h31
+— How can you use the staging area to make sure you have one commit per logical
+change ?
+The staging area can be used as a buffer for when I am not 100% sure of
+having made a logical change needing a commit.
+
+### 14sep 11h01
+— What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+Branches would be helpful when testing a new feature or when trying
+trying to adapt the project to a new configuration i.e. new language.
+New branch when testing new/experimental feature.
+
+### 14sep 11h43
+— How do the diagrams help you visualize the branch structure ?
+A project on Git will develop in a similar fashion a tree would.
+Each branch of a project are independent.
+The master branch always remains the master (production) branch.
+Typically, a new branch would be created to test an experimental/new feature.
+Should the feature turn out to be desirable, the branch feature can be
+merged within the master branch. 
