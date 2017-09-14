@@ -1,0 +1,16 @@
+### 14sep 9h37
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repo adds to your project's root folder a hidden folder
+containing the necessary tools Git is using to track changes.
+If I dont initialize a repo, Git won't be tracking my changes, I won't
+be able to use Git's functionalities.
+
+### 14sep 9h55
+How is the staging area different from the working directory and the repo?
+What value do you think it offers?
+The working directory is related to what is happening on my local machine.
+The repo is what happens when I commit my changes from local machine to Git.
+The staging area is a limbo space between the two, possibly allowing me to
+prepare my future commits before I go online and actually commit to the Git
+system.
