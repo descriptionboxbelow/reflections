@@ -21,7 +21,16 @@ one instead of another?
   features not present in the master branch.
 
 15sep-17h30
-  What is the benefit of having a copy of the last known state of the remote
-  stored locally?
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
   The benefit is having a local copy is being able to work on the project when
-  offline. You can then merge remote changes when you come back online. 
+  offline. You can then merge remote changes when you come back online.
+
+15sep-18h28
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+  Without Git/GitHub, setting up files to be reviewed by collaborators would be
+  easier (email attachment, upload a server or cloud service).
+  The bigger the project and the bigger the team, collaborating without
+  a common version control system is a ticking bomb: how to know who did what
+  and when, wich file has the priority, etc.
