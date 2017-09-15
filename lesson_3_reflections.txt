@@ -18,4 +18,10 @@ one instead of another?
   When forking with the idea of modifying a repo, I'll first have to clone it
   on my machine.
   branches: Within the same repo, branches are created to test new/experimental
-  features not present in the master branch.  
+  features not present in the master branch.
+
+15sep-17h30
+  What is the benefit of having a copy of the last known state of the remote
+  stored locally?
+  The benefit is having a local copy is being able to work on the project when
+  offline. You can then merge remote changes when you come back online. 
