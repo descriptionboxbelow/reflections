@@ -8,3 +8,14 @@ stay up-to-date with your remote repository?
   Because my remote repository might be updated or altered by collaborators.
   I would want to be aware if new commits have been made on the project since
   my last commit.
+
+15sep-16h31
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+  forks: A copy of someone else's GitHub project under my GitHub username.
+  forks exist first & foremost on GitHub (server side)
+  clone: A copy of a repository (not necesarily mine) on my local machine.
+  When forking with the idea of modifying a repo, I'll first have to clone it
+  on my machine.
+  branches: Within the same repo, branches are created to test new/experimental
+  features not present in the master branch.  
