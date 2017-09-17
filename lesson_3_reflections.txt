@@ -35,3 +35,14 @@ and what would be harder?
   The bigger the project and the bigger the team, collaborating without
   a common version control system is a ticking bomb: how to know who did what
   and when, wich file has the priority, etc.
+
+17sep-14h43
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+  Making changes in a separate branch gives us the freedom to experiment with
+  a new feature without fear of breaking the master branch. This option has the
+  downside of becoming time consuming & complex when merging the new features
+  into master.
+  Making changes directly in master is faster and implies no complex merging
+  procedures. This is probably sensible in the case of very minor changes.
+  The downside of this option is the risk of breaking the master branch.
